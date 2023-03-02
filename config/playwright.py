@@ -6,4 +6,4 @@ class Playwright:
     BROWSER = os.getenv('BROWSER') if os.getenv('BROWSER') is not None else 'chrome'
     IS_HEADLESS = os.getenv('HEADLESS') if os.getenv('HEADLESS') is not None else False
     SLOW_MO = int(os.getenv('SLOW_MO')) if os.getenv('SLOW_MO') is not None else 50
-    LOCALE = 'en-US'
+    LOCALE = 'ru-RU'
