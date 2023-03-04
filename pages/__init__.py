@@ -1,4 +1,7 @@
-from pages.index_page import IndexPage
+from pages.page_auth import AuthPage
+from pages.menu import Menu
+from pages.popup_pass import PopupPass
 
-index_page = IndexPage()
-
+auth_page = AuthPage()
+menu = Menu()
+popup_pass = PopupPass()
